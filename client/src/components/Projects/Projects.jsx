@@ -7,7 +7,7 @@ const projectData = [
     title: "Streamify",
     description:
       "A full-stack Spotify-style music platform built with Flask, React, and Firebase. Supports playlists, auth, and real-time playback.",
-    tags: ["Flask", "React", "Firebase"],
+    tags: ["Python", "Flask", "React", "Firebase", "GCP"],
     live: "https://hxrshmxllow.github.io/my-portfolio/#projects",
     code: "https://github.com/Hxrshmxllow/Spotify",
   },
@@ -15,9 +15,9 @@ const projectData = [
     title: "NobleMart",
     description:
       "An AI-powered e-commerce site for fragrances with UPC-based inventory sync to Amazon & eBay.",
-    tags: ["Flask", "GCP", "Stripe", "NoSQL"],
+    tags: ["Python", "Flask", "React", "AWS", "DyanamoDB", "OpenAI API"],
     live: "https://hxrshmxllow.github.io/my-portfolio/#projects",
-    code: "https://github.com/Hxrshmxllow/Projects/noblemart",
+    code: "https://github.com/Hxrshmxllow/noblemart",
   },
   {
     title: "Trading Bot",
@@ -27,6 +27,56 @@ const projectData = [
     live: "https://hxrshmxllow.github.io/my-portfolio/#projects",
     code: "https://github.com/Hxrshmxllow/Day-Trading-Bot",
   },
+  {
+    title: "PrepAI for SAT",
+    description:
+      "An AI-powered SAT prep platform that generates unlimited CollegeBoard-style questions for personalized and adaptive test practice.",
+    tags: ["Python", "Flask", "React", "GCP", "Firebase", "Selenium"],
+    live: "https://hxrshmxllow.github.io/my-portfolio/#projects",
+    code: "https://github.com/Hxrshmxllow/PrepAI",
+  },
+  {
+    title: "AI-Powered Chess Game",
+    description: "An interactive chess platform supporting both player-vs-player matches and AI-powered gameplay for dynamic, adaptive challenges.",
+    tags: ["Python", "Pytorch", "PyGame"],
+    live: "https://hxrshmxllow.github.io/my-portfolio/#projects",
+    code: "https://github.com/Hxrshmxllow/projects/",
+  },
+  {
+    title: "AI Poker Application",
+    tags: ["Python", "Flask", "React", "PyTorch"],
+    description: "A full-stack poker platform featuring an AI-powered bot trained on OpenAI gameplay data for strategic, human-like decision-making.",
+    code: "https://github.com/Hxrshmxllow/Projects/tree/main/Poker",
+    live: "https://hxrshmxllow.github.io/my-portfolio/#projects",
+  },
+  {
+    title: "NJ Transit Lost and Found",
+    tags: ["Python", "Flask", "HTML", "CSS", "JavaScript"],
+    description: "A web-based lost and found system for NJ Transit with Flask, OpenAI API, and a responsive frontend to help passengers easily report and recover lost items.",
+    code: 'https://github.com/Hxrshmxllow/Projects/tree/main/NJ-Transit-Lost-and-Found',
+    live: "https://hxrshmxllow.github.io/my-portfolio/#projects",
+  },
+  {
+    title: "AI-Powered Tic-Tac-Toe",
+    tags: ["Python", "Scikit-Learn"],
+    description: "An intelligent Tic-Tac-Toe game powered by Scikit-Learn, training a model to predict optimal moves and adapt strategies based on real-time board states.",
+    code: 'https://github.com/Hxrshmxllow/Projects/blob/main/Tic-Tac-Toe',
+    live: "https://hxrshmxllow.github.io/my-portfolio/#projects",
+  },
+  {
+    title: "Banking Application",
+    tags: ["Python", "Flask", "HTML", "CSS", "SQLite"],
+    description: "A full-stack banking platform featuring secure user accounts, seamless fund transfers, and a simulated money market for realistic financial interactions.",
+    code: 'https://github.com/Hxrshmxllow/Projects/tree/main/Bank',
+    live: "https://hxrshmxllow.github.io/my-portfolio/#projects",
+  },
+  {
+    title: "RULate",
+    tags: ["React-Native", "Firebase", "Google Maps API", "Stripe"],
+    description: "A mobile Rutgers ride-sharing app designed to connect students and optimize routes for faster, more efficient campus travel.",
+    code: 'https://github.com/Hxrshmxllow/HackRU',
+    live: "https://hxrshmxllow.github.io/my-portfolio/#projects",
+  }
 ];
 
 export default function Projects() {
@@ -98,9 +148,8 @@ export default function Projects() {
           <div className="popup-box" onClick={(e) => e.stopPropagation()}>
             <h3>Redirect Notice</h3>
             <p>
-              This new portfolio focuses on UI and showing live demos.
-              The old version contains the project demo videos/images.  
-              Would you like to visit the old version?
+              This new portfolio is still under development.
+              Would you like to visit the old version to see the demo?
             </p>
 
             <div className="popup-buttons">

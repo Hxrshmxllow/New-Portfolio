@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/prepai/static/css/main.99674932.css",
+    "main.js": "/prepai/static/js/main.2fd8a946.js",
+    "static/media/logo.png": "/prepai/static/media/logo.7bdf0f0a2244d41bc43b.png",
+    "static/media/score-improvement-illustration.png": "/prepai/static/media/score-improvement-illustration.3394faa407ee7cfd69e0.png",
+    "index.html": "/prepai/index.html",
+    "main.99674932.css.map": "/prepai/static/css/main.99674932.css.map",
+    "main.2fd8a946.js.map": "/prepai/static/js/main.2fd8a946.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.99674932.css",
+    "static/js/main.2fd8a946.js"
+  ]
+}
